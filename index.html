@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ShoeMate</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="image/logo.png">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+            * {
+                font-family: 'Poppins', sans-serif;
+                overflow-x: hidden;
+            }
+
+            #navicon i:hover {
+                color: #c72092;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light shadow fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <h2 class="fw-bold overflow-hidden" style="background: linear-gradient(to right, #c72092,#6c14d0);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;">
+                        Shoe<span>Mates</span>
+                    </h2>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-md-5">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Discover</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div id="navicon" class="d-flex align-items-center justify-content-start gap-3 pe-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div style="
+        min-height: 90vh; 
+        margin-top: 4.5rem;
+        background-image: url(hello.jpg);
+        background-size: cover;
+        background-position: center;" class="row p-5">
+            <div class="col-12 col-md-6">
+                <h1 style="
+                line-height: 70px;
+                letter-spacing: 0.7px;
+                overflow: hidden;
+                font-size: 80px;
+                font-family: pyxidium quick;
+                background: linear-gradient(to right, #c72092,#6c14d0);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                position: relative;
+                top: 45px;" class="fw-bold">
+                    Shoe
+                    <br>
+                    Collection
+                </h1>
+                <br>
+                <p class="mt-5 fs-5 text-dark text-shadow" style="line-height: 30px;">
+                    They are the footprints of camaraderie, imprints of adventures, and echoes of shared laughter. As we lace up our individual tales, our soles synchronize, creating a rhythm that only true shoemates can hear. In the tapestry of time, our paths may diverge, but our shoemates remain, bridging the gaps with threads of memories stitched in leather and laces. So, let us stride forward, hand in hand with our shoemates, for in every pair, there's a story, and in every story, there's a shoemate waiting to be discovered.
+                </p>
+                <button class="btn text-white d-flex align-items-center justify-content-start gap-2 px-3 border mt-4" style="
+                    border-radius: 30px;
+                    background: linear-gradient(to right,#c72092 , #6c14d0);
+                ">
+                    SHOP NOW
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="col-12 col-md-6">
+                <img class="img-fluid" src="frnt.png" class="img-fluid mx-auto d-block">
+            </div>
+        </div>
+        <div style="min-height: 100vh;">
+            <h1 style="
+                letter-spacing: 0.7px;
+                overflow: hidden;
+                font-size: 80px;
+                font-family: pyxidium quick;
+                background: linear-gradient(to right, #c72092,#6c14d0);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                " class="fw-bold text-center py-5">Products</h1>
+            <div class="row justify-content-center gap-md-5">
+                <div class="col-12 col-md-3 p-4 border bg-light rounded shadow">
+                    <div class=" d-flex align-items-center justify-content-start gap-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="nike.png">
+                    </div>
+                    <div class="products_text text-center overflow-hidden">
+                        <h2 class="overflow-hidden">Nike</h2>
+                        <p></p>
+                        <h3 class="overflow-hidden fs-5 gw-bold"> ₱9,999.99</h3>
+                        <div class="products_star text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a href="#" class="btn" style="background: linear-gradient(to right,#c72092 , #6c14d0); color: white">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 p-4 border bg-light rounded shadow">
+                    <div class=" d-flex align-items-center justify-content-start gap-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="gumgum.png">
+                    </div>
+                    <div class="products_text text-center overflow-hidden">
+                        <h2 class="overflow-hidden">NIKE</h2>
+                        <p></p>
+                        <h3 class="overflow-hidden fs-5 gw-bold">₱2,500.00</h3>
+                        <div class="products_star text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn" style="background: linear-gradient(to right,#c72092 , #6c14d0); color: white">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 p-4 border bg-light rounded shadow">
+                    <div class=" d-flex align-items-center justify-content-start gap-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="nike.png">
+                    </div>
+                    <div class="products_text text-center overflow-hidden">
+                        <h2 class="overflow-hidden">NIKE</h2>
+                        <p></p>
+                        <h3 class="overflow-hidden fs-5 gw-bold">₱4,175.99</h3>
+                        <div class="products_star text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="#" class="btn" style="background: linear-gradient(to right,#c72092 , #6c14d0); color: white">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 p-4 border bg-light rounded shadow">
+                    <div class=" d-flex align-items-center justify-content-start gap-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="gumgum.png">
+                    </div>
+                    <div class="products_text text-center overflow-hidden">
+                        <h2 class="overflow-hidden">NIKE</h2>
+                        <p></p>
+                        <h3 class="overflow-hidden fs-5 gw-bold">₱5,120.99</h3>
+                        <div class="products_star text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="#" class="btn" style="background: linear-gradient(to right,#c72092 , #6c14d0); color: white">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 p-4 border bg-light rounded shadow">
+                    <div class=" d-flex align-items-center justify-content-start gap-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="gumgum.png">
+                    </div>
+                    <div class="products_text text-center overflow-hidden">
+                        <h2 class="overflow-hidden">NIKE</h2>
+                        <p></p>
+                        <h3 class="overflow-hidden fs-5 gw-bold">₱6,9990.99</h3>
+                        <div class="products_star text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a href="#" class="btn" style="background: linear-gradient(to right,#c72092 , #6c14d0); color: white">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 p-4 border bg-light rounded shadow">
+                    <div class=" d-flex align-items-center justify-content-start gap-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="nike.png">
+                    </div>
+                    <div class="products_text text-center overflow-hidden">
+                        <h2 class="overflow-hidden">NIKE</h2>
+                        <p></p>
+                        <h3 class="overflow-hidden fs-5 gw-bold"> ₱3,220.99</h3>
+                        <div class="products_star text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn" style="background: linear-gradient(to right,#c72092 , #6c14d0); color: white">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 p-4 border bg-light rounded shadow">
+                    <div class=" d-flex align-items-center justify-content-start gap-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="nike.png">
+                    </div>
+                    <div class="products_text text-center overflow-hidden">
+                        <h2 class="overflow-hidden">NIKE</h2>
+                        <p></p>
+                        <h3 class="overflow-hidden fs-5 gw-bold">₱2,999.00</h3>
+                        <div class="products_star text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <a href="#" class="btn" style="background: linear-gradient(to right,#c72092 , #6c14d0); color: white">Add To Cart</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 p-4 border bg-light rounded shadow">
+                    <div class=" d-flex align-items-center justify-content-start gap-3">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <img class="img-fluid" src="gumgum.png">
+                    </div>
+                    <div class="products_text text-center overflow-hidden">
+                        <h2 class="overflow-hidden">NIKE</h2>
+                        <p></p>
+                        <h3 class="overflow-hidden fs-5 gw-bold">₱10,599.99</h3>
+                        <div class="products_star text-warning">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <a href="#" class="btn" style="background: linear-gradient(to right,#c72092 , #6c14d0); color: white">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about" id="About" style="min-height: 160vh; ">
+            <h1 class="fs-1 fw-bold" style="overflow: hidden;">
+                Preview
+                <span style="overflow: hidden;">About</span>
+            </h1>
+            <div class="about_main d-md-flex d-block overflow-hidden" style="margin-top: -100px;">
+                <div class="about_image py-5">
+                    <div class="about_small_image">
+                        <img src="image2.png" onclick="functio(this)">
+                        <img src="image3.png" onclick="functio(this)">
+                        <img src="image4.png" onclick="functio(this)">
+                        <img src="image5.png" onclick="functio(this)">
+                    </div>
+                    <div class="image_contaner">
+                        <img src="image1.png" id="imagebox">
+                    </div>
+                </div>
+                <div class="about_text">
+                    <p>
+                        Adidas Men's Questar 2 Running Shoes
+                  ₱3,600.00
+                  CUSHIONED DISTANCE RUNNING SHOES MADE IN PART WITH RECYCLED MATERIALS. 
+                  The longer the run, the more time you get to spend out in the fresh air. 
+                  Build distance into your running routine in the cushioned comfort of these adidas running shoes. 
+                  A full-length Bounce midsole provides soft landings on every stride. 
+                  A lightweight mesh upper wraps your foot in breezy comfort while adding lockdown and support where you need it most. 
+                  Made with a series of recycled materials, this upper features at least 50% recycled content.
+                  This product represents just one of our solutions to help end plastic waste.
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="about_btn mb-5">Shop Now</a>
+            <script>
+            function functio(small){
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+            </script>
+        </div>
+        <div class="review" style="height: 1000px;" id="Review" style="margin-top: -1500px;">
+            <h1 class="p-0 fs-1 fw-bold">
+                Customer's
+                <span>review</span>
+            </h1>
+            <div class="review_box d-md-flex d-block">
+                <div class="review_card mx-auto mx-md-5 my-md-3">
+                    <div class="card_top">
+                        <div class="profile">
+                            <div class="profile_image">
+                                <img src="pict1.webp">
+                            </div>
+                            <div class="name">
+                                <strong>Gabriele</strong>
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            I recently purchased these shoes, and they have exceeded my expectations in every way. The comfort level is unmatched, providing a cloud-like cushion with every step. The attention to detail in the design is evident, and the quality of materials ensures durability for the long run.
+                        </p>
+                    </div>
+                </div>
+                <div class="review_card mx-auto mx-md-5 my-md-3">
+                    <div class="card_top">
+                        <div class="profile">
+                            <div class="profile_image">
+                                <img src="pict2.webp">
+                            </div>
+                            <div class="name">
+                                <strong>Solace</strong>
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            I recently purchased these shoes, and they have exceeded my expectations in every way. The comfort level is unmatched, providing a cloud-like cushion with every step. 
+                      The attention to detail in the design is evident, and the quality of materials ensures durability for the long run.
+                        </p>
+                    </div>
+                </div>
+                <div class="review_card mx-auto mx-md-5 my-md-3">
+                    <div class="card_top">
+                        <div class="profile">
+                            <div class="profile_image">
+                                <img src="pict3.webp">
+                            </div>
+                            <div class="name">
+                                <strong>Vhorriz</strong>
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            I recently purchased these shoes, and they have exceeded my expectations in every way. The comfort level is unmatched, providing a cloud-like cushion with every step.
+                       The attention to detail in the design is evident, and the quality of materials ensures durability for the long run.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="review_box d-md-flex d-block">
+                <div class="review_card mx-auto mx-md-5 my-md-3">
+                    <div class="card_top">
+                        <div class="profile">
+                            <div class="profile_image">
+                                <img src="pict4.webp">
+                            </div>
+                            <div class="name">
+                                <strong>Baron</strong>
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            I recently purchased these shoes, and they have exceeded my expectations in every way. The comfort level is unmatched, providing a cloud-like cushion with every step. 
+                      The attention to detail in the design is evident, and the quality of materials ensures durability for the long run.
+                        </p>
+                    </div>
+                </div>
+                <div class="review_card mx-auto mx-md-5 my-md-3">
+                    <div class="card_top">
+                        <div class="profile">
+                            <div class="profile_image">
+                                <img src="pict5.webp">
+                            </div>
+                            <div class="name">
+                                <strong>Johnny</strong>
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            I recently purchased these shoes, and they have exceeded my expectations in every way. The comfort level is unmatched, providing a cloud-like cushion with every step. 
+                      The attention to detail in the design is evident, and the quality of materials ensures durability for the long run.
+                        </p>
+                    </div>
+                </div>
+                <div class="review_card mx-auto mx-md-5 my-md-3">
+                    <div class="card_top">
+                        <div class="profile">
+                            <div class="profile_image">
+                                <img src="pict6.webp">
+                            </div>
+                            <div class="name">
+                                <strong>Miguel</strong>
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <p>
+                            I recently purchased these shoes, and they have exceeded my expectations in every way. The comfort level is unmatched, providing a cloud-like cushion with every step. 
+                      The attention to detail in the design is evident, and the quality of materials ensures durability for the long run.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services" style="height: 500px;" id="Servises">
+            <h1 class="fs-1 fw-bold">
+                our
+                <span>services</span>
+            </h1>
+            <div class="services_cards d-md-flex d-block">
+                <div class="services_box">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>
+                        Stepping into confidence with every stride.
+                    </p>
+                </div>
+                <div class="services_box">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <h3>1 Month Replacement</h3>
+                    <p>
+                        A one-month replacement policy
+                    </p>
+                </div>
+                <div class="services_box">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Service &amp; Support</h3>
+                    <p>
+                        The foundation of a seamless experience
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer_main text-center d-md-flex d-block">
+                <div class="tag">
+                    <h1>Contact</h1>
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>ShoeMate@gmail.com
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i>+1-2345-6789
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>123 Ave, Sariaya, Philippines
+                    </a>
+                </div>
+                <div class="tag">
+                    <h1>Get Help</h1>
+                    <a href="#" class="center">Payment Options</a>
+                    <a href="#" class="center">Order Us</a>
+                    <a href="#" class="center">Delivery</a>
+                    <a href="#" class="center">Refunds</a>
+                </div>
+                <div class="tag">
+                    <h1>Our Stores</h1>
+                    <a href="#" class="center">Philippines</a>
+                    <a href="#" class="center">USA</a>
+                </div>
+                <div class="tag">
+                    <h1>Follw Us</h1>
+                    <div class="social_link justify-content-center">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="tag">
+                    <h1>Newsletter</h1>
+                    <div class="">
+                        
+                            <input style="width: 200px;" type="text" class="form-control mx-auto" placeholder="You email id here">
+                        
+                        <button type="submit" class="btn btn-primary btn-sm my-3">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
+</html>
